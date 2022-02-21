@@ -1,2 +1,5 @@
-git init			初始化本地仓库
-git madir+文件名			创建文件夹
+git init					初始化本地仓库
+git remote add 仓库代称 ssh或https链接					连接本地仓库和远程仓库
+git remote remove 仓库代称					断开本地和远程仓库的连接
+git remote -v					查看本地和远程连接情况
+git mkdir+文件名					创建文件夹

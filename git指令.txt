@@ -65,3 +65,8 @@ git reset --hard 版本号       回滚到特定版本
 git push -f origin master     将本地的当前版本强制提交到远程仓库中
 
 注意：在我们向远程仓库提交代码的时候，一定要先进行pull操作，再进行push操作，防止本地仓库与远程仓库不同步导致冲突的问题。
+
+
+
+git教程：
+https://blog.csdn.net/qq_35246620/article/details/66973794

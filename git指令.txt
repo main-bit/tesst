@@ -19,3 +19,43 @@ git add -u ，提交被修改(modified)和被删除(deleted)文件，不包括�
 git add .，提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 …
 git add -A，提交所有变化。git add前几条都可以记不住，这个必须记住！！！
+
+
+git常用指令
+git config --global user.name "名字"
+
+git config --global user.email "邮箱"
+
+git status 查看当前状态
+
+git commit –m “注释”
+
+git log
+
+git branch 查看分支
+
+git branch a 创建分支a
+
+git checkout a 切换到a分支
+
+git merge a 将分支a合并到当前分支
+
+git branch –d a 删除分支a
+
+git branch –D a 强制删除分支a
+
+git push origin master
+
+git pull origin master  把远端origin的master分支的最新版本拉取到本地，自动merge
+
+git fetch origin master  把远端origin的master分支的最新版本拉取到本地，不merge，较安全
+
+git clone https://github.com/...  克隆远程仓库
+
+git remote add origin https://github.com/...   关联远程仓库
+
+git reset --hard 版本号       回滚到特定版本
+
+git push -f origin master     将本地的当前版本强制提交到远程仓库中
+
+注意：在我们向远程仓库提交代码的时候，一定要先进行pull操作，再进行push操作，防止本地仓库与远程仓库不同步导致冲突的问题。

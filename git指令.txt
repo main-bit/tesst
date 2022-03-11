@@ -40,9 +40,15 @@ git checkout a 切换到a分支
 
 git merge a 将分支a合并到当前分支
 
-git branch –d a 删除分支a
+git branch –d a 删除本地分支a
+
+git push origin -d a 删除远程分支a
 
 git branch –D a 强制删除分支a
+
+git branch -a 显示所有本地-远程分支
+
+git branch -r 显示远程分支
 
 git push origin master
 
